@@ -39,6 +39,7 @@ use MailchimpTransactional\Api\UsersApi;
 use MailchimpTransactional\Api\WebhooksApi;
 use MailchimpTransactional\Api\WhitelistsApi;
 
+#[\AllowDynamicProperties]
 class Configuration
 {
     protected $host = 'https://mandrillapp.com/api/1.0';

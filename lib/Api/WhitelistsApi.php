@@ -42,6 +42,7 @@ use MailchimpTransactional\ObjectSerializer;
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
+#[\AllowDynamicProperties]
 class WhitelistsApi
 {
     protected $Configuration;
